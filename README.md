@@ -20,8 +20,6 @@ This repo is ready to publish as a GitHub Pages site.
 6. Select the default branch and the `/ (root)` folder.
 7. Save, then wait for the site to build.
 
-If your repository is named `your-username.github.io`, GitHub Pages will serve it as your main personal site. Otherwise, it will be available at the GitHub Pages URL shown in the Pages settings.
-
 ## Local preview
 
 You can open `index.html` directly in your browser, or use any static file server.
