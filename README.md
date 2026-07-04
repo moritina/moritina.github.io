@@ -7,6 +7,7 @@ This repo is ready to publish as a GitHub Pages site.
 - `index.html` is the Bio landing page.
 - `publications.html` holds the publications page.
 - `teaching.html` holds the teaching page.
+- `awards.html` holds the awards page.
 - Update the shared sidebar links, page headings, and content in each file.
 - Keep `styles.css` if you want the current academic-style layout, or adjust it to suit your branding.
 
