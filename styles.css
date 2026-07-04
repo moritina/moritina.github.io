@@ -109,7 +109,7 @@ img {
 .subtitle {
   margin: 0 0 1.2rem;
   color: var(--muted);
-  text-align: center;
+  text-align: left;
   max-width: 28ch;
 }
 
@@ -355,7 +355,7 @@ img {
 
   .sidebar h1,
   .subtitle {
-    text-align: center;
+    text-align: left;
   }
 
   .top-nav {
