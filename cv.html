@@ -7,7 +7,7 @@
       name="description"
       content="Ruotong Mu's personal website."
     />
-    <title>Ruotong Mu / Awards</title>
+    <title>Ruotong Mu / CV</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -15,6 +15,27 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
+    <style>
+      .cv-viewer {
+        display: grid;
+      }
+
+      .cv-frame-wrap {
+        border: 1px solid var(--border);
+        border-radius: 18px;
+        overflow: hidden;
+        background: var(--panel);
+        min-height: min(78vh, 980px);
+      }
+
+      .cv-frame {
+        width: 100%;
+        height: min(78vh, 980px);
+        border: 0;
+        display: block;
+        background: #fff;
+      }
+    </style>
   </head>
   <body>
     <header class="mobile-header">
@@ -30,7 +51,7 @@
       <a href="index.html">About me</a>
       <a href="publications.html">Research</a>
       <a href="teaching.html">Teaching</a>
-      <a href="cv.html">CV</a>
+      <a href="cv.html" aria-current="page">CV</a>
     </nav>
 
     <div class="layout">
@@ -79,33 +100,12 @@
       </aside>
 
       <main class="content">
-        <section class="section awards-list">
-          <article class="entry">
-            <div class="entry-year">2025-2026</div>
-            <div>
-              <h3>Dean's Scholarship, Johns Hopkins University SAIS</h3>
-              <p>
-                Paul Alter Fellowship, Johns Hopkins University SAIS
-              </p>
+        <section class="section">
+          <div class="cv-viewer">
+            <div class="cv-frame-wrap">
+              <iframe class="cv-frame" src="cv.pdf" title="CV preview"></iframe>
             </div>
-          </article>
-          <article class="entry">
-            <div class="entry-year">2024-2025</div>
-            <div>
-              <h3>Dean's Scholarship, Johns Hopkins University SAIS</h3>
-              <p>
-                Bernard and Irene Schwartz Summer Internship Fund, Johns
-                Hopkins University SAIS
-              </p>
-            </div>
-          </article>
-          <article class="entry">
-            <div class="entry-year">2023-2024</div>
-            <div>
-              <p>Rongchang Scholar, Fudan University</p>
-              <p>Outstanding Graduate, Renmin University of China</p>
-            </div>
-          </article>
+          </div>
         </section>
       </main>
     </div>

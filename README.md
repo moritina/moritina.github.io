@@ -1,15 +1,23 @@
-# Personal Website Starter
+# Personal Website
 
 This repo is ready to publish as a GitHub Pages site.
 
+## Site Structure
+
+- `index.html` is the Home / About me page.
+- `publications.html` is the Research page.
+- `teaching.html` is the Teaching page.
+- `awards.html` is the Awards page.
+- `cv.html` is the CV page.
+- The shared navigation is at the top of each page.
+- The profile image, name, and social links appear above the main content area on each page.
+- `styles.css` controls the shared academic-style layout and spacing.
+
 ## Edit the site
 
-- `index.html` is the Bio landing page.
-- `publications.html` holds the publications page.
-- `teaching.html` holds the teaching page.
-- `awards.html` holds the awards page.
-- Update the shared sidebar links, page headings, and content in each file.
-- Keep `styles.css` if you want the current academic-style layout, or adjust it to suit your branding.
+- Update the content in each HTML file directly.
+- Replace `profile.jpg`, `Zhuoming.jpg`, `UNICEF.jpg`, `SARB.jpg`, and `cv.pdf` with your own files when needed.
+- If you change the page structure or look, update `styles.css` so the whole site stays consistent.
 
 ## Publish on GitHub Pages
 
@@ -23,4 +31,4 @@ This repo is ready to publish as a GitHub Pages site.
 
 ## Local preview
 
-You can open `index.html` directly in your browser, or use any static file server.
+You can open `index.html` directly in your browser, or use any static file server for local preview.
