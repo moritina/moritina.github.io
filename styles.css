@@ -211,7 +211,7 @@ img {
 .about-feature-media img {
   width: 80%;
   height: 80%;
-  min-height: 170px;
+  min-height: 100px;
   object-fit: cover;
   object-position: center center;
 }
