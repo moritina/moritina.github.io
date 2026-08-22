@@ -209,8 +209,8 @@ img {
 }
 
 .about-feature-media img {
-  width: 70%;
-  height: 70%;
+  width: 80%;
+  height: 80%;
   min-height: 60px;
   object-fit: cover;
   object-position: center center;
